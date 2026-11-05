@@ -1,3 +1,19 @@
 spring:
   application:
     name: planta-serv-1
+  datasource:
+    url: jdbc:postgresql://localhost:5432/bd_planta_sv1
+    username: sd
+    password: sd
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+    properties:
+      hibernate:
+        jdbc:
+          lob:
+            non_contextual_creation: true
+
+server:
+  port: 8081
