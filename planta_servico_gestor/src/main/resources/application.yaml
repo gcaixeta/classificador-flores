@@ -1,3 +1,6 @@
 spring:
   application:
     name: planta_servico_gestor
+
+server:
+  port: 8084
