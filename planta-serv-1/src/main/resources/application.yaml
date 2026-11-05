@@ -1,0 +1,3 @@
+spring:
+  application:
+    name: planta-serv-1
